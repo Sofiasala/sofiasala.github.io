@@ -5,6 +5,11 @@
 body{
     background-color:lavender;
     font-family: Roboto;
+    margin: 5% 25% 5% 25%;
+}
+#imagen-deportes¨{ 
+margin:10% 40% 10% 40% ; 
+display:block;
 }
 
    
@@ -26,12 +31,13 @@ a{
 }
 
 img{
-    width: 100%;
+    width: 80%;
 }
 
 #imagen-boton{
     float:right;
     display: block;
+    margin: 5% 65% 20% 10%;
     
 }
 
@@ -40,6 +46,13 @@ img{
      background-color:lightblue;
      border-radius: 20px;
 width: 80%;}
+
+.texto-colorv{
+    text-align: left;
+    background-color: mediumpurple;
+    border-radius: 50px;
+ width: 80%;}
+ 
 /*siempre todo se cierra ;*/
 /* el hastag es para crear una clase*/
 /*el arroba es para las fuentes*/
