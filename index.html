@@ -16,97 +16,284 @@
 </head>
 
 <body>
-
-    <div class="texto-centrado">
-        <h1>Sports Website</h1>
-    </div>
-    <img src="deportesimg.jpg">
-    <div class="texto-centrado">
-        <h3>¿Que es el deporte?</h3>
-    </div>
-    <p>El deporte es todo tipo de actividades físicas que, mediante una participación, organizada o de otro tipo, tengan
-        por finalidad la
-        expresión o la mejora de la condición física y psíquica, en desarrollo de las relaciones sociales o el logro de
-        resultados en
-        competiciones de todos los niveles. Se diferencia del juego principalmente en la preparación y capacitación
-        necesarias para su
-        desarrollo, ya que el juego no requiere una preparación específica para su ejecución.
-        El deporte es toda aquella actividad física que involucra una serie de reglas o normas a desempeñar dentro de un
-        espacio o área
-        determinada (campo de juego, cancha, pista, etc) a menudo asociada a la competitividad deportiva.
-    </p>
-    <div class="texto-centrado">
-        <h3>¿La danza es un deporte?</h3>
-    </div>
-    <p>En 1997 el baile fue reconocido como deporte olímpico por el Comité Olímpico Internacional, y en el 2006, el
-        Consejo Superior
-        de Deportes español lo aceptó como modalidad deportiva</p>
-    <div class="texto-centrado">
-        <h3>¿Existen deportes para las personas con discapacidades?</h3>
-    </div>
-    <p>La respuesta es </p>
-    <div class="texto-centrado">
-        <h3>Algunas recomendaciones</h3>
-    </div>
-    <p>·Es recomendable a la hora de hacer deportes, de consultar todas las dudas posibles, para luego no
-        lastimarse.</p>
-    <p>·Es importante pemsar bien que deporte eljir, para no hacer algo que no nos gusta y pasarla mal, muchas veces
-        uno elije un deporte que ama, pero termina siendo un deporte
-        no tan bueno para uno mismo.</p>
-    <p>Siempre ser amable y respetuoso</p>
-    <p>·Cuando uno siente una molestia, ya sea fisica o mental, dirijirse al profesor que este acargo , y consultar
-        que sucede y como solucionarlo. </p>
-    <p>·Tomar las cosas con calma y no frustrarce porque algo no salio bien a la primera, las cosas llevan tiempo.
-    </p>
-    <p>·No compararce con el resto de las personas, ya que cada cuerpo es diferente, por lo cual cada cosa se hara a
-        distinto tiempo y forma.</p>
-    <div class="texto-centrado">
-        <h3>un mensaje para todos/as</h3>
-    </div>
-    <p>Nadie debe ser obligado a hacer nada que no le guste, pero eso no es una excusa para no hacer un deporte, no es
-        necesario
-        hacer un deporte super conocido, solo tiene que ser algo que te llene el alma y que te den ganas de hacerlo
-        todos los dias,
-        hasta tu ultimo dia de vida.
-        No te mates haciendo el doble de lo que podes hacer para ser mejor qeu alguien, hacelo para ser mejor que vos, y
-        superarte todos
-        los dias.....
-    </p>
-    <p>TOCA LA PELOTA</p>
-    </div>
-
-
+    <div class="container text-center">
+        <div class="row align-items-center">
+          <div class="col-12">  
     <nav class="navbar navbar-expand-lg bg-body-tertiary">
         <div class="container-fluid">
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav">
-              <li class="nav-item">
-                <a class="navbar-brand mb-0 h1" href="carrusel.html"><button type="button"
-                    class="btn btn-light">imagenes</button></a>
-              </li>
-              <li class="nav-item">
-                <a class="navbar-brand" href="modal.html"><button type="button" class="btn btn-light">compras</button></a>
-              </li>
-              <li class="nav-item">
-                <a class="navbar-brand mb-0 h1" href="contacto.html"><button type="button" class="btn btn-light">contacto</button></a>
-              </li>
-              <li class="nav-item">
-                <a class="navbar-brand" href="acordeon.html"><button type="button" class="btn btn-light">informacion</button>
-              </li>
-            </ul>
-          </div>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="navbar-brand" href="index.html"><button type="button"
+                                class="btn btn-light">inicio</button></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="navbar-brand mb-0 h1" href="carrusel.html"><button type="button"
+                                class="btn btn-light">imagenes</button></a>
+                    </li>
+                    
+                    <li class="nav-item">
+                        <a class="navbar-brand mb-0 h1" href="acordeon.html"><button type="button"
+                                class="btn btn-light">+info</button></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="navbar-brand" href="contacto.html"><button type="button"
+                                class="btn btn-light">contacto</button></a>
+                    </li>
+                </ul>
+            </div>
         </div>
-      </nav>
+    </nav>
+
+    <div class="accordion" id="accordionExample">
+        <div class="accordion-item">
+            <h2 class="accordion-header">
+                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne"
+                    aria-expanded="false" aria-controls="collapseOne">
+                    Sports Website
+                </button>
+            </h2>
+            <div id="collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                    <strong>¿Que es el deporte?:</strong> El deporte es todo tipo de actividades físicas que, mediante
+                    una participación, organizada o de otro tipo, tengan
+                    por finalidad la
+                    expresión o la mejora de la condición física y psíquica, en desarrollo de las relaciones sociales o
+                    el logro de
+                    resultados en
+                    competiciones de todos los niveles. Se diferencia del juego principalmente en la preparación y
+                    capacitación
+                    necesarias para su
+                    desarrollo, ya que el juego no requiere una preparación específica para su ejecución.
+                    El deporte es toda aquella actividad física que involucra una serie de reglas o normas a desempeñar
+                    dentro de un
+                    espacio o área
+                    determinada (campo de juego, cancha, pista, etc) a menudo asociada a la competitividad deportiva.
+                </div>
+            </div>
+        </div>
+        <div class="accordion-item">
+            <h2 class="accordion-header">
+                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo"
+                    aria-expanded="false" aria-controls="collapseTwo">
+                    Danza
+                </button>
+            </h2>
+            <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                    <strong>¿La danza es un deporte?:</strong> En 1997 el baile fue reconocido como deporte olímpico por
+                    el Comité Olímpico Internacional, y en el 2006, el
+                    Consejo Superior
+                    de Deportes español lo aceptó como modalidad deportiva
+                </div>
+            </div>
+        </div>
+        <div class="accordion-item">
+            <h2 class="accordion-header">
+                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree"
+                    aria-expanded="false" aria-controls="collapseTrhee">
+                    Discapacidad
+                </button>
+            </h2>
+            <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                    <strong>¿existen deportes para discapacitados?:</strong> si existen, aqui dejamos algunos
+                    ejemplos:Atletismo,
+                    Bádminton, Baloncesto en silla de ruedas ,Boccia, Ciclismo, Esgrima en silla de ruedas, Futbol-5 y
+                    Goalball.
+                </div>
+            </div>
+        </div>
+        <div class="accordion-item">
+            <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                    Elementos de deportes
+                </button>
+            </h2>
+            <div id="collapseFour" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                    <strong>Comunicate con los clubes mas reconocidos de la zona.</strong> aqui te dejamos algunos
+                    medios de comunicacion con clubes que puedan interesarte:
+                    <p>club social y deportivo:3546445560 </p>
+                    <p> club atletico belgrano:7778889052 </p>
+                    <p>club calaguala:4445678902</p>
+                </div>
+            </div>
+        </div>
+        <div class="accordion-item">
+            <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                    videos
+                </button>
+            </h2>
+            <div id="collapseFive" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                    <strong>video de un partido de futbol</strong> <a
+                        href="https://youtu.be/LtwaDBjNop0">Toque Aqui</a> 
+                 </div>
+               
+            </div>
+            <div id="collapseFive" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                    <strong>video de pas de quatre(swan lake) </strong> <a
+                        href="https://youtu.be/0GsajWIF3ws?feature=shared">Toque Aqui</a> 
+                 </div>
+               
+            </div>
+            <div id="collapseFive" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                    <strong>video de goalball </strong> <a
+                        href="https://youtu.be/Da9ilQ2-jVo?feature=shared">Toque Aqui</a> 
+                 </div>
+               
+            </div>
+        </div>
+    </div>
+     <!-- modal -->
+<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+    Compras + info
+  </button>
+  
+  <!-- Modal -->
+  <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title fs-5" id="staticBackdropLabel">Compras online</h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          bienvenidos a nuestra pagina de compras.
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+          <a href=" https://www.vandalia.com.ar/ " type="button" class="btn btn-primary">ver</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div> 
+</div> 
+  <!-- Footer -->
+<footer class="text-center text-lg-start bg-light text-muted">
+    <!-- Section: Social media -->
+    <section class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
+      <!-- Left -->
+      <div class="me-5 d-none d-lg-block">
+        <span>Get connected with us on social networks:</span>
+      </div>
+      <!-- Left -->
+  
+      <!-- Right -->
+      <div>
+        <a href="" class="me-4 text-reset">
+          <i class="fab fa-facebook-f"></i>
+        </a>
+        <a href="" class="me-4 text-reset">
+          <i class="fab fa-twitter"></i>
+        </a>
+        <a href="" class="me-4 text-reset">
+          <i class="fab fa-google"></i>
+        </a>
+        <a href="" class="me-4 text-reset">
+          <i class="fab fa-instagram"></i>
+        </a>
+        <a href="" class="me-4 text-reset">
+          <i class="fab fa-linkedin"></i>
+        </a>
+        <a href="" class="me-4 text-reset">
+          <i class="fab fa-github"></i>
+        </a>
+      </div>
+      <!-- Right -->
+    </section>
+    <!-- Section: Social media -->
+  
+    <!-- Section: Links  -->
+    <section class="">
+      <div class="container text-center text-md-start mt-5">
+        <!-- Grid row -->
+        <div class="row mt-3">
+          <!-- Grid column -->
+          <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+            <!-- Content -->
+            <h6 class="text-uppercase fw-bold mb-4">
+              <i class="fas fa-gem me-3"></i>Sports Website
+            </h6>   
+            <a href=""></a><img src="img/website desing/descarga (37).jfif" width="185px" alt="">
+          </div>
+          <!-- Grid column -->
+  
+          <!-- Grid column -->
+          <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+            <!-- Links -->
+            <h6 class="text-uppercase fw-bold mb-4">
+              Herramientas
+            </h6>
+            <p>
+              <a href="#!" class="text-reset">Comentarios</a>
+            </p>
+            <p>
+              <a href="#!" class="text-reset">Sugerencias</a>
+            </p>
+            <p>
+              <a href="#!" class="text-reset">Redes Sociales</a>
+            </p>
+            <p>
+              <a href="#!" class="text-reset">Colaboraciones</a>
+            </p>
+          </div>
+          <!-- Grid column -->
+  
+          <!-- Grid column -->
+          <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+            <!-- Links -->
+            <h6 class="text-uppercase fw-bold mb-4">
+              Tu perfil
+            </h6>
+            <p>
+              <a href="#!" class="text-reset">Configuracion</a>
+            </p>
+            <p>
+              <a href="#!" class="text-reset">Ayuda</a>
+            </p>
+            <p>
+              <a href="#!" class="text-reset">Claves</a>
+            </p>
+            <p>
+              <a href="#!" class="text-reset">Compras</a>
+            </p>
+          </div>
+          <!-- Grid column -->
+  
+          <!-- Grid column -->
+          <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+            <!-- Links -->
+            <h6 class="text-uppercase fw-bold mb-4">Contacto</h6>
+            <p>
+              <i class="fas fa-envelope me-3"></i>
+              sportswebsite@gmail.com
+            </p>
+            <p><i class="fas fa-phone me-3"></i> instagram: @sports.website</p>
+            <p><i class="fas fa-print me-3"></i> telefono: +54 9 3546-883260</p>
+          </div>
+          <!-- Grid column -->
+        </div>
+        <!-- Grid row -->
+      </div>
+    </section>
+    <!-- Section: Links  -->
+  </footer>
+  <!-- Footer -->
 
 
-
-    <a id="imagen-boton" href="https://youtu.be/LtwaDBjNop0"><img src="pelota futbol.jpg"></a>
-   
-
-   
+    
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
         integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
         crossorigin="anonymous"></script>
@@ -114,7 +301,8 @@
         integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
         crossorigin="anonymous"></script>
 
-
+       
+              
 </body>
 
 </html>
